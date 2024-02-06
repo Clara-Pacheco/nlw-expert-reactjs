@@ -95,7 +95,7 @@ The end result of this challenge should be something around:
 
 <br>
 
-<h2> 📞 Contatos</h2>
+<h2> 📞 Contact me</h2>
 
 <div>
     <a href="https://www.linkedin.com/in/maria-clara-pacheco/" target="_blank">
@@ -107,6 +107,6 @@ The end result of this challenge should be something around:
 </div>
 
 <div align="center">
-Feito com 💜 por Clara 🚀
+Made with 💜 by Clara 🚀
 </div>
 </p>
