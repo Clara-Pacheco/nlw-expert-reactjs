@@ -1,5 +1,5 @@
-export function App() {
-  return;
+import React from "react";
 
-  <h1>Hello World</h1>;
-}
+export const App: React.FC = () => {
+  return <div>Hello, World!</div>;
+};
