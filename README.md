@@ -64,9 +64,9 @@ The end result of this challenge should be something around:
 
 <br>
 
-📅 **Início:** 06.02.2024
+📅 **Started:** 06.02.2024
 
-📅 **Conclusão:** 08.02.2024
+📅 **Finished:** 08.02.2024
 
 🕛 **Status:** In progress
 
@@ -74,7 +74,7 @@ The end result of this challenge should be something around:
 
 <br>
 
-<h2> 🛠 Stack Utilizada</h2>
+<h2> 🛠 Stack </h2>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
