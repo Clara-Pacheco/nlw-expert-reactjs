@@ -58,7 +58,7 @@ The end result of this challenge should be something around:
 
 ## 📕 Extra Information
 
-<p>Layout do projeto desenvolvido no NLW expert da Rocketseat.</p>
+<p>Layout of the project developed in Rocketseat's NLW expert..</p>
 
 [Link to Figma](https://www.figma.com/community/file/1336456128647909148)
 
