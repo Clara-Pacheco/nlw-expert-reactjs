@@ -1,5 +1,7 @@
 import React from "react";
 
 export const App: React.FC = () => {
-  return <div>Hello, World!</div>;
+  return (
+    <h1 className="text-3xl font-bold underline text-red-500">Hello world!</h1>
+  );
 };
