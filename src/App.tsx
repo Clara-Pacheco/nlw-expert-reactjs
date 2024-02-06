@@ -11,6 +11,8 @@ export const App = () => {
           className="w-full bg-transparent text-3xl font-semibold tracking-tight placeholder:text-slate-500 outline-none"
         />
       </form>
+
+      <div className="h-px bg-slate-700"></div>
     </div>
   );
 };
