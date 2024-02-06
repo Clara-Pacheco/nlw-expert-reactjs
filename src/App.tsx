@@ -13,6 +13,18 @@ export const App = () => {
       </form>
 
       <div className="h-px bg-slate-700"></div>
+
+      <div className="grid grid-cols-3 gap-6 auto-rows-[250px]">
+        <div className="rounded-md bg-slate-700 p-5">
+          <span>Adicionar nota</span>
+          <p>
+            Grave uma nota em áudio que será convertida para texto
+            automaticamente.
+          </p>
+        </div>
+        <div className="rounded-md bg-slate-800"></div>
+        <div className="rounded-md bg-slate-800"></div>
+      </div>
     </div>
   );
 };
