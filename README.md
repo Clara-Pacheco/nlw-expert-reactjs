@@ -1,5 +1,3 @@
-# NLW EXPERT - TRILHA REACTJS
-
 <div align="center">
 <img src="https://github.com/Clara-Pacheco/nlw-expert-reactjs/blob/main/src/assets/github-readme/Cover.jpg" alt="">&nbsp;&nbsp;&nbsp;
 
@@ -14,9 +12,9 @@
 
 <br>
 
-# 🎬 The Super Mario Bros - Movie
+# 🎼 --> 📃 NLW EXPERT - TRILHA REACTJS
 
-![Project cover]()
+![Project cover](https://github.com/Clara-Pacheco/nlw-expert-reactjs/blob/main/src/assets/github-readme/cover.png)
 
 ## 💻 About the project
 
