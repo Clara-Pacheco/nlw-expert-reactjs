@@ -1,7 +1,7 @@
 # NLW EXPERT - TRILHA REACTJS
 
 <div align="center">
-<img width="150px" src="https://github.com/Clara-Pacheco/super-mario-reactjs/blob/main/src/assets/logo-cap.png" alt="">&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/Clara-Pacheco/nlw-expert-reactjs/blob/main/src/assets/github-readme/Cover.jpg" alt="">&nbsp;&nbsp;&nbsp;
 
 <br>
 <br>
@@ -79,21 +79,26 @@ The end result of this challenge should be something around:
 <div style="display: inline_block"><br>
   <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 
-  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <!-- <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
-  <img align="center" alt="Styled-Components" height="30" width="40" src="https://skillicons.dev/icons?i=styledcomponents">
-          
+  <img align="center" alt="Styled-Components" height="30" width="40" src="https://skillicons.dev/icons?i=styledcomponents"> -->
+
   <!--<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <!--<img align="center" alt="JQuery" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />-->
   <!--<img align="center" alt="SASS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />-->
   <!--<img align="center" alt="Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />-->
-  <!--<img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />-->
+
+  <img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  
   <img align="center" alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-   <img align="left" alt="Clara-SVG" height="30" width="40" src="https://skillicons.dev/icons?i=svg">
-   <img align="left" alt="Clara-Vercel" height="30" width="40" src="https://skillicons.dev/icons?i=vercel">
-   <img align="left" alt="Clara-Vite" height="30" width="40" src="https://skillicons.dev/icons?i=vite">
+
+  <img align="left" alt="Clara-SVG" height="30" width="40" src="https://skillicons.dev/icons?i=svg">
+
+  <img align="left" alt="Clara-Vercel" height="30" width="40" src="https://skillicons.dev/icons?i=vercel">
+
+  <img align="left" alt="Clara-Vite" height="30" width="40" src="https://skillicons.dev/icons?i=vite">
 </div>
 
 <br>
