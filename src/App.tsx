@@ -1,5 +1,10 @@
-import React from "react";
+import logo from "./assets/logo-nlw-expert.svg";
 
-export const App: React.FC = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+export const App = () => {
+  return (
+    <div>
+      <img src={logo} alt="nlw-experts-logo" />;
+      <input type="text" placeholder="Busque em suas notas..." />
+    </div>
+  );
 };
