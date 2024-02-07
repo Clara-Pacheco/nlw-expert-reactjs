@@ -37,6 +37,12 @@ export function NoteCard(props: NoteCardProps) {
                 {props.content}
               </p>
             </div>
+            <button
+              type="button"
+              className="w-full bg-slate-800 py-4 text-center text-sm text-slate-300 outline-none"
+            >
+              Deseja apagar essa nota?
+            </button>
           </Dialog.Content>
         </Dialog.Overlay>
       </Dialog.Portal>
