@@ -23,18 +23,19 @@ export function NewNoteCard() {
               <X className="size-5" />
             </Dialog.Close>
             <div className="flex flex-1 flex-col gap-3 p-5">
-              <span className="text-sm font-medium text-slate-300"></span>
-              <p className="text-sm leading-6 text-slate-400"></p>
+              <span className="text-sm font-medium text-slate-300">
+                Adicionar nota
+              </span>
+              <p className="text-sm leading-6 text-slate-400">
+                Comece gravando uma nota em áudio ou se preferir utilize apenas
+                texto.
+              </p>
             </div>
             <button
               type="button"
-              className="w-full bg-slate-800 py-4 text-center text-sm text-slate-300 outline-none font-medium group"
+              className="w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500"
             >
-              Deseja{" "}
-              <span className="text-red-400 group-hover:underline">
-                apagar essa nota
-              </span>
-              ?
+              Salvar nota
             </button>
           </Dialog.Content>
         </Dialog.Overlay>
