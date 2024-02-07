@@ -27,8 +27,15 @@ export function NewNoteCard() {
                 Adicionar nota
               </span>
               <p className="text-sm leading-6 text-slate-400">
-                Comece gravando uma nota em áudio ou se preferir utilize apenas
-                texto.
+                Comece{" "}
+                <button className="font-medium text-lime-400 hover:underline">
+                  gravando uma nota
+                </button>{" "}
+                em áudio ou se preferir{" "}
+                <button className="font-medium text-lime-400 hover:underline">
+                  utilize apenas texto
+                </button>
+                .
               </p>
             </div>
             <button
