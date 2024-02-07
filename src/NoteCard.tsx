@@ -29,7 +29,7 @@ export function NoteCard(props: NoteCardProps) {
            max-w-[640px] h-[60vh] w-full bg-slate-700 rounded-md flex flex-col outline-none"
           >
             <Dialog.Close className="absolute right-0 top-0 bg-slate-800 p-1.5 text-slate-400">
-              <X />
+              <X className="size-5" />
             </Dialog.Close>
             <div className="flex flex-1 flex-col gap-3 p-5">
               <span className="text-sm font-medium text-slate-300">
