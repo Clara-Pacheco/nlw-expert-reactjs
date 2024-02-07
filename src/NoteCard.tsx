@@ -28,7 +28,7 @@ export function NoteCard(props: NoteCardProps) {
             className="fixed overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
            max-w-[640px] h-[60vh] w-full bg-slate-700 rounded-md flex flex-col outline-none"
           >
-            <Dialog.Close>
+            <Dialog.Close className="absolute right-0 top-0 bg-slate-800 p-1.5 text-slate-400">
               <X />
             </Dialog.Close>
             <div className="flex flex-1 flex-col gap-3 p-5">
