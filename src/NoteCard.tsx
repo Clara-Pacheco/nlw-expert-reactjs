@@ -18,8 +18,13 @@ export function NoteCard(props: NoteCardProps) {
       </Dialog.Trigger>
 
       <Dialog.Portal>
-        <Dialog.Overlay className="inset-0 fixed bg-black">
-          <Dialog.Content>Oi</Dialog.Content>
+        <Dialog.Overlay className="inset-0 fixed bg-black/50">
+          <Dialog.Content
+            className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+           bg-white w-[300px] h-[200px]"
+          >
+            Oi
+          </Dialog.Content>
         </Dialog.Overlay>
       </Dialog.Portal>
     </Dialog.Root>
