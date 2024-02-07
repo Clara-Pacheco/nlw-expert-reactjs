@@ -19,6 +19,7 @@ export const App = () => {
       <div className="grid grid-cols-3 gap-6 auto-rows-[250px]">
         <NewNoteCard />
         <NoteCard date={new Date()} content="Hello World" />
+        <NoteCard date={new Date(2023, 4, 1)} content="Test" />
       </div>
     </div>
   );
