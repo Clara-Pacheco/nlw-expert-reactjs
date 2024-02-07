@@ -1,5 +1,8 @@
 import * as Dialog from "@radix-ui/react-dialog";
 
+import { formatDistanceToNow } from "date-fns";
+import { ptBR } from "date-fns/locale";
+
 interface NoteCardProps {
   date: Date;
   content: string;
@@ -25,7 +28,10 @@ export function NoteCard(props: NoteCardProps) {
           >
             <div className="flex flex-1 flex-col gap-3 p-5">
               <span className="text-sm font-medium text-slate-300">
-                {props.date.toISOString()}
+                {formatDistanceToNow(props.date, {
+                  locale: ptBR,
+                  addSuffix: true,
+                })}
               </span>
               <p className="text-sm leading-6 text-slate-400">
                 {props.content}
