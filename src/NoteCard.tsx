@@ -18,7 +18,9 @@ export function NoteCard(props: NoteCardProps) {
       </Dialog.Trigger>
 
       <Dialog.Portal>
-        <Dialog.Content>Oi</Dialog.Content>
+        <Dialog.Overlay className="inset-0 fixed bg-black">
+          <Dialog.Content>Oi</Dialog.Content>
+        </Dialog.Overlay>
       </Dialog.Portal>
     </Dialog.Root>
   );
