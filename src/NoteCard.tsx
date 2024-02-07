@@ -1,3 +1,5 @@
+import * as Dialog from "@radix-ui/react-dialog";
+
 interface NoteCardProps {
   date: Date;
   content: string;
