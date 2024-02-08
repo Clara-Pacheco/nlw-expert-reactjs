@@ -37,18 +37,33 @@ Main points addressed in the project:
 
 The end result of this challenge should be something around:
 
-![Project´s preview]()
+![Project´s preview](https://github.com/Clara-Pacheco/nlw-expert-reactjs/blob/main/src/assets/github-readme/preview1.gif)
+
+<br>
+
+![Project´s preview](https://github.com/Clara-Pacheco/nlw-expert-reactjs/blob/main/src/assets/github-readme/preview2.gif)
 
 <br>
 
 ## 💾 Tecnologies
 
 - **ReactJS**
+
 - **Typescript**
+
 - **TailwindCSS**
-- **Git** - responsible for performing code versioning;
-- **Vite** - used to create a React environment;
-- **NPM** - Used to install dependencies;
+
+- **Radix**
+
+- **Sonner**
+
+- **SpeechRecognition Browswer API**
+
+- **Git**
+
+- **Vite**
+
+- **NPM**
 
 <br>
 
@@ -68,9 +83,9 @@ The end result of this challenge should be something around:
 
 📅 **Finished:** 08.02.2024
 
-🕛 **Status:** In progress
+🕛 **Status:** Concluded ✔
 
-🌎 **Result Preview:** [Link]()
+🌎 **Result Preview:** [Link](https://nlw-expert-reactjs-olive.vercel.app/)
 
 <br>
 
