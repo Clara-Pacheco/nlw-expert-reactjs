@@ -6,8 +6,10 @@ import { ptBR } from "date-fns/locale";
 import { X } from "lucide-react";
 
 interface NoteCardProps {
+  id: string;
   date: Date;
   content: string;
+  onNoteDeleted: (id: string) => void;
 }
 
 export function NoteCard(props: NoteCardProps) {
@@ -47,6 +49,7 @@ export function NoteCard(props: NoteCardProps) {
             </div>
             <button
               type="button"
+              onClick={() => props.onNoteDeleted(props.id)}
               className="w-full bg-slate-800 py-4 text-center text-sm text-slate-300 outline-none font-medium group"
             >
               Deseja{" "}
