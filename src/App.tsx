@@ -15,6 +15,11 @@ export const App = () => {
       date: new Date(2023, 4, 1),
       content: "Test",
     },
+    {
+      id: 3,
+      date: new Date(2024, 1, 2),
+      content: "Test2",
+    },
   ]);
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
@@ -31,8 +36,11 @@ export const App = () => {
 
       <div className="grid grid-cols-3 gap-6 auto-rows-[250px]">
         <NewNoteCard />
-        <NoteCard date={new Date()} content="Hello World" />
-        <NoteCard date={new Date(2023, 4, 1)} content="Test" />
+        {notes.map((note) => {
+          return (
+            <NoteCard key={note.id} date={note.date} content={note.content} />
+          );
+        })}
       </div>
     </div>
   );
