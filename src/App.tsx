@@ -28,6 +28,8 @@ export const App = () => {
       date: new Date(),
       content: content,
     };
+
+    setNotes([newNote, ...notes]);
   }
 
   return (
