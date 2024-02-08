@@ -53,6 +53,8 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
       window.SpeechRecognition || window.webkitSpeechRecognition;
 
     const speechRecognition = new SpeechRecognitionAPI();
+
+    speechRecognition.lang = "pt-BR";
   }
 
   function handleStopRecording() {
