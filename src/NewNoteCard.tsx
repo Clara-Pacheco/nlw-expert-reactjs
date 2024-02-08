@@ -58,6 +58,10 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     speechRecognition.continuous = true;
     speechRecognition.maxAlternatives = 1;
     speechRecognition.interimResults = true;
+
+    speechRecognition.onresult = (event) => {
+      console.log(event.results);
+    };
   }
 
   function handleStopRecording() {
