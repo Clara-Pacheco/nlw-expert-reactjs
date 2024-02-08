@@ -79,7 +79,7 @@ export const App = () => {
           return (
             <NoteCard
               id={note.id}
-              key={note.id}
+              // key={note.id}
               date={note.date}
               content={note.content}
               onNoteDeleted={onNoteDeleted}
