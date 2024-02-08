@@ -56,6 +56,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     speechRecognition.lang = "pt-BR";
     speechRecognition.continuous = true;
+    speechRecognition.maxAlternatives = 1;
   }
 
   function handleStopRecording() {
