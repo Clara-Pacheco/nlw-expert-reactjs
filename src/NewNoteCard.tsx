@@ -62,6 +62,10 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     speechRecognition.onresult = (event) => {
       console.log(event.results);
     };
+
+    speechRecognition.onerror = (event) => {
+      console.error(event);
+    };
   }
 
   function handleStopRecording() {
