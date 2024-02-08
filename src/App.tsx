@@ -1,8 +1,21 @@
+import { useState } from "react";
 import { NewNoteCard } from "./NewNoteCard";
 import { NoteCard } from "./NoteCard";
 import logo from "./assets/logo-nlw-expert.svg";
 
 export const App = () => {
+  const [notes, setNotes] = useState([
+    {
+      id: 1,
+      date: new Date(),
+      content: "Hello World",
+    },
+    {
+      id: 2,
+      date: new Date(2023, 4, 1),
+      content: "Test",
+    },
+  ]);
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
       <img src={logo} alt="nlw-expert-logo" />
