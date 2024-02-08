@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { NewNoteCard } from "./NewNoteCard";
 import { NoteCard } from "./NoteCard";
 import logo from "./assets/logo-nlw-expert.svg";
@@ -10,6 +10,8 @@ interface Note {
 }
 
 export const App = () => {
+  const [search, setSearch] = useState("");
+
   const [notes, setNotes] = useState<Note[]>(() => {
     const notesOnStorage = localStorage.getItem("notes");
 
@@ -34,6 +36,14 @@ export const App = () => {
     localStorage.setItem("notes", JSON.stringify(notesArray));
   }
 
+  function handleSearch(event: ChangeEvent<HTMLInputElement>) {
+    const query = event.target.value;
+
+    setSearch(query);
+  }
+
+  console.log(search);
+
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
       <img src={logo} alt="nlw-expert-logo" />
@@ -42,6 +52,7 @@ export const App = () => {
           type="text"
           placeholder="Busque em suas notas..."
           className="w-full bg-transparent text-3xl font-semibold tracking-tight placeholder:text-slate-500 outline-none"
+          onChange={handleSearch}
         />
       </form>
 
