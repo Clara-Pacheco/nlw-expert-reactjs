@@ -3,12 +3,15 @@ import { X } from "lucide-react";
 import { ChangeEvent, FormEvent, useState } from "react";
 export function NewNoteCard() {
   const [shouldShowOnboarding, setShouldShowOnboarding] = useState(true);
+  const [content, setContent] = useState("");
 
   function handleStartEditor() {
     setShouldShowOnboarding(false);
   }
 
   function handleContentChanged(event: ChangeEvent<HTMLTextAreaElement>) {
+    setContent(event.target.value);
+
     if (event.target.value === "") {
       setShouldShowOnboarding(true);
     }
@@ -16,7 +19,7 @@ export function NewNoteCard() {
 
   function handleSaveNote(event: FormEvent) {
     event.preventDefault();
-    console.log("Deu");
+    console.log(content);
   }
   return (
     <Dialog.Root>
