@@ -51,6 +51,8 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     const SpeechRecognitionAPI =
       window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const speechRecognition = new SpeechRecognitionAPI();
   }
 
   function handleStopRecording() {
