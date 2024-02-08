@@ -40,6 +40,17 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
   function handleStartRecording() {
     setIsRecording(true);
+
+    const isSpeechRecognitionAPIAvailable =
+      "SpeechRecognition" in window || "webkitSpeechRecognition" in window;
+
+    if (!isSpeechRecognitionAPIAvailable) {
+      alert("Infelizmente seu navegador não suporta a API de gravação!");
+      return;
+    }
+
+    const SpeechRecognitionAPI =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
   }
 
   function handleStopRecording() {
